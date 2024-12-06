@@ -1,7 +1,7 @@
 # separator 
 print(67 * "-")
 
-# Header
+# Header  
 print("""
 projekt_1.py: první projekt do Engeto Online Python Akademie
 
