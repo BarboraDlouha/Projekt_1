@@ -125,7 +125,6 @@ if username in login_data and login_data[username] == password:
         word_length = [len(word) for word in words]
         word_length_count = Counter(word_length)
         max_count = int(max(word_length_count.values())) + 1
-        print(max_count)
         print(f"{"LEN":>5}| {"OCCURENCES":<{max_count}}| {"NR.":<5}")
         print(30 * "-")
         for length, count in sorted(word_length_count.items()):
